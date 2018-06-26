@@ -1798,6 +1798,8 @@ body.active .page-wrap:after {
     overflow-y: scroll;
     z-index: -999;
     opacity: 0;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 
 .pop-wrap.active {
