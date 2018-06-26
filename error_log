@@ -1,0 +1,5 @@
+[24-May-2018 01:11:04 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/roosterd/public_html/AIG.com/mailer.php on line 41
+[24-May-2018 01:20:52 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/roosterd/public_html/AIG.com/mailer.php on line 45
+[29-May-2018 20:04:26 America/Los_Angeles] PHP Fatal error:  Call to undefined method PHPMailer::isDebug() in /home/roosterd/public_html/AIG.com/mailer.php on line 49
+[29-May-2018 20:19:32 America/Los_Angeles] PHP Warning:  stream_socket_enable_crypto(): Peer certificate CN=`host2.roostercreativeshosting.com' did not match expected CN=`smtp.gmail.com' in /home/roosterd/public_html/AIG.com/PHPMailer_5.2.4/class.smtp.php on line 248
+[29-May-2018 20:35:20 America/Los_Angeles] PHP Warning:  stream_socket_enable_crypto(): Peer certificate CN=`host2.roostercreativeshosting.com' did not match expected CN=`smtp.gmail.com' in /home/roosterd/public_html/AIG.com/PHPMailer_5.2.4/class.smtp.php on line 248

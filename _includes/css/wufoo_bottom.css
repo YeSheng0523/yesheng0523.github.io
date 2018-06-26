@@ -1,0 +1,101 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : Example Custom CSS : DinoMaster!
+ URL : http://wufoo.com
+
+ Last Updated : April 1, 2011
+
+- - - - - - - - - - - - - - - - - - - - - 
+
+INSTRUCTIONS
+1. Copy / Paste all or portions of these
+CSS rules into "custom.css".
+
+2. Experiment and play.
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* - - - Default - - - */
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/* Logo */
+*{ box-sizing:border-box; font-family: 'Noto Sans TC', 'Noto Sans' , Arial, Helvetica, sans-serif !important;}
+#logo a {background-image:none; min-height:0; height:40px}
+* html #logo a {/* IE6 png Support */
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://wufoo.com/images/themes/logos/shark.png", sizingMethod="crop");
+}
+
+/* Backgrounds */
+html{background-image:none;background-color:#FFFFFF}
+#logo{background-image:none;background-color:#FFFFFF}
+#container{background:#FFFFFF}
+.wufoo input.text, .wufoo textarea.textarea{height: 50px;
+    padding: 10px 12px 9px 12px;
+    font-size: 16px;
+    font-family: 'Noto Sans';
+    border: 2px solid #ccc;
+    border-radius: 0;
+    width: 100%;
+    color: #666;
+    font-weight: normal;
+    background-color: transparent;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;}
+.wufoo .focused{background:#FFF7C0}
+.wufoo .instruct{background-color:#F5F5F5}
+
+/* Borders */
+#container{border:0 solid #cccccc}
+.wufoo .info{border-bottom:none;}
+.wufoo .instruct{border:1px solid #e6e6e6}
+
+/* Typography */
+.wufoo .info h2{font-size:25px;font-family:inherit;color:#999}
+.wufoo .info div{font-size:23px;font-family:inherit;color:#333}
+.wufoo .section h3{font-size:110%;font-family:inherit;background:#FFFFFF;color:#666}
+.wufoo .section div{font-size:85%;font-family:inherit;color:#333}
+.wufoo label.desc, .wufoo legend.desc{font-size:95%;font-family:inherit;color:#333}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#333}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{ padding: 10px 12px 9px 12px;
+    font-size: 16px;
+    font-family: 'Noto Sans';
+    border: 2px solid #ccc;
+    border-radius: 0;
+    width: 100%;
+    color: #666;
+    font-weight: normal;
+    background-color: transparent;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;}
+.wufoo label.choice{color:#333}
+.wufoo .instruct{font-size:80%;font-family:inherit;color:#333
+}
+.wufoo input.btTxt{    display: inline-block; min-width:200px;
+    margin-bottom: 0;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	 font-size:18px; height:62px !important; border-radius:31px; padding:17px 35px; transition:all 0.3s;  background-color:#e46f1f !important; color:#fff; }
+.wufoo input.btTxt:hover{/*color:#fff; box-shadow:0 2px 8px -1px rgba(255,255,255,0.5), 0 0 16px 4px #e46f1f, 0 0 6px 2px #e46f1f;*/ color:#fff; background-color:#FBA137 !important;  }
+.wufoo label.choice{ border:none; font-size:10px; padding:1px; width:auto;}
+.wufoo label.desc, .wufoo legend.desc{ font-weight:400;}
+form li.buttons, form li.captcha{ text-align:center;}
+.wufoo li div{ margin:0 auto;}
+form.wufoo{ padding:30px 12px;}
+
