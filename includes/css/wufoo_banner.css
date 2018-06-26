@@ -79,6 +79,9 @@ html {
 .wufoo .focused {
     background: #FFF7C0
 }
+.wufoo li.focused {
+    background-color: rgba(0,0,0,0);
+}
 
 .wufoo .instruct {
     background-color: #F5F5F5
@@ -95,24 +98,25 @@ html {
 }
 
 .wufoo .instruct {
-    border: 1px solid #e6e6e6
+    border: 1px solid rgb(204,204,204);
 }
 
 /* Typography */
 
 .wufoo .info h2 {
-    font-size: 25px;
+    font-size: 31px;
     font-family: inherit;
     color: white;
     font-weight: normal;
-    float: left;
+    text-align: left;
 }
 
 .wufoo .info div {
-    font-size: 25px;
+    font-size: 31px;
     font-family: inherit;
     color: white;
-    float: left;
+    font-weight: normal;
+    text-align: left;
 }
 
 .wufoo .section h3 {
@@ -132,7 +136,7 @@ html {
 .wufoo legend.desc {
     font-size: 95%;
     font-family: inherit;
-    color: #333
+    color: white;
 }
 
 .wufoo li div,
@@ -227,5 +231,5 @@ form li.captcha {
 }
 
 form.wufoo {
-    padding: 30px 12px;
+    padding: 50px 42px;
 }
