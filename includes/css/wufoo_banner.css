@@ -50,8 +50,9 @@ html {
 #container {
     background: rgba(0, 0, 0, 0.5);
 }
-.centerFormProp{
-    text-align: left;
+
+.centerFormProp {
+    text-align: left ! important;
 }
 
 .wufoo input.text,
