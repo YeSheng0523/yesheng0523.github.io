@@ -62,7 +62,7 @@ html {
     font-size: 16px;
     font-family: 'Noto Sans';
     border: 2px solid #ccc;
-    border-radius: 0;
+    border-radius:  0;
     width: 100%;
     color: white;
     font-weight: normal;
@@ -121,7 +121,7 @@ html {
     font-size: 110%;
     font-family: inherit;
     background: #FFFFFF;
-    color: #666
+    color: white;
 }
 
 .wufoo .section div {
@@ -154,7 +154,7 @@ html {
     border: 2px solid #ccc;
     border-radius: 0;
     width: 100%;
-    color: #666;
+    color: white;
     font-weight: normal;
     background-color: transparent;
     -moz-transition: all 0.3s;
@@ -199,6 +199,9 @@ html {
     transition: all 0.3s;
     background-color: #e46f1f !important;
     color: #fff;
+}
+.wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused div, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label, .safari .wufoo li.focused input.file{
+    color: white;
 }
 
 .wufoo input.btTxt:hover {
