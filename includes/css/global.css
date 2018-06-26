@@ -952,13 +952,9 @@ body {
     color: white
 }
 
-.banner-form-row {
-    margin: 0 30px 0 80px;
-}
-
 .banner-form {
-    margin: 50px 0 50px 0;
     max-width: 800px;
+    max-width: 100%;
 }
 
 .pc-menu {
