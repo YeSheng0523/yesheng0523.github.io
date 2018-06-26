@@ -1,21 +1,4 @@
-/* - - - - - - - - - - - - - - - - - - - - -
 
- Title : Example Custom CSS : DinoMaster!
- URL : http://wufoo.com
-
- Last Updated : April 1, 2011
-
-- - - - - - - - - - - - - - - - - - - - - 
-
-INSTRUCTIONS
-1. Copy / Paste all or portions of these
-CSS rules into "custom.css".
-
-2. Experiment and play.
-
-- - - - - - - - - - - - - - - - - - - - - */
-
-/* - - - Default - - - */
 
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 /* Logo */
@@ -54,6 +37,14 @@ html {
     background-color: #FFFFFF
 }
 
+.wufoo li span {
+    color: white;
+}
+
+.wufoo li.focused span {
+    color: white;
+}
+
 #container {
     background: rgba(0, 0, 0, 0.5);
 }
@@ -79,8 +70,9 @@ html {
 .wufoo .focused {
     background: #FFF7C0
 }
+
 .wufoo li.focused {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .wufoo .instruct {
@@ -98,7 +90,7 @@ html {
 }
 
 .wufoo .instruct {
-    border: 1px solid rgb(204,204,204);
+    border: 1px solid rgb(204, 204, 204);
 }
 
 /* Typography */
