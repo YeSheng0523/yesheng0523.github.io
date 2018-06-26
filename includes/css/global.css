@@ -1830,7 +1830,7 @@ body.active .page-wrap:after {
 
 .pop-main iframe {
     vertical-align: middle;
-    overflow: scroll!important;
+    overflow: scroll !important;
 }
 
 .pop-wrap .close-btn {

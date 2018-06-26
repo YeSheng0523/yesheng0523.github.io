@@ -62,7 +62,7 @@ html {
     font-size: 16px;
     font-family: 'Noto Sans';
     border: 2px solid #ccc;
-    border-radius:  0;
+    border-radius: 0;
     width: 100%;
     color: white;
     font-weight: normal;
@@ -200,7 +200,14 @@ html {
     background-color: #e46f1f !important;
     color: #fff;
 }
-.wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused div, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label, .safari .wufoo li.focused input.file{
+
+.wufoo li.focused label.desc,
+.wufoo li.focused legend.desc,
+.wufoo li.focused div,
+.wufoo li.focused span,
+.wufoo li.focused div label,
+.wufoo li.focused span label,
+.safari .wufoo li.focused input.file {
     color: white;
 }
 
