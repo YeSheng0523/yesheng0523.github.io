@@ -1795,14 +1795,14 @@ body.active .page-wrap:after {
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 9999;
-    overflow-y: auto;
+    overflow-y: scroll;
     z-index: -999;
     opacity: 0;
 }
 
 .pop-wrap.active {
     z-index: 9999;
+    overflow-y: scroll;
     opacity: 1;
 }
 
@@ -1817,7 +1817,7 @@ body.active .page-wrap:after {
 
 .pop-main {
     position: relative;
-    z-index: 9;
+    z-index: 99999;
     margin: 0 auto;
     background-color: #fff;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.25);
@@ -1833,7 +1833,7 @@ body.active .page-wrap:after {
 
 .pop-wrap .close-btn {
     position: absolute;
-    z-index: 999;
+    z-index: 99999;
     right: 0;
 }
 
