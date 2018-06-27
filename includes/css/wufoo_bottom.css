@@ -227,3 +227,6 @@ form.wufoo {
 form ul {
     margin: 0 40px;
 }
+.wufoo li.focused {
+    background-color: white ! important;
+}
