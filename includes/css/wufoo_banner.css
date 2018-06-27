@@ -241,3 +241,8 @@ form li.captcha {
 form.wufoo {
     padding: 50px 42px;
 }
+
+.confirm h2 {
+    color: white;
+    margin-top: -100px;
+}
