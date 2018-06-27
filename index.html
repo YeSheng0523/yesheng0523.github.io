@@ -999,51 +999,63 @@
 
         </div>
     </div>
+    <style>
+
+        .modal-dialog {
+            overflow-y: initial !important
+        }
+
+        .modal-body {
+            height: 1000px;
+            overflow-y: auto;
+        }
+    </style>
     <div class="modal fade" id="join-us-modal" role="dialog">
-        <div class="modal-dialog">
+        <div class="modal-dialog" style="overflow-y: scroll; max-height:85%;  margin-top: 50px; margin-bottom:50px;">
             <div class="modal-content">
                 <div class="modal-header" style="border-bottom: 0">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
-<!--                <iframe height="1090" allowTransparency="true" frameborder="0" style="width:100%;border:none" src="https://aigchinese.wufoo.com/embed/m1g1wuul0tojv0t/"></iframe>-->
-                
-                <div id="wufoo-m1g1wuul0tojv0t">
-                    Fill out my <a href="https://aigchinese.wufoo.com/forms/m1g1wuul0tojv0t">online form</a>.
-                </div>
-                
-                <script type="text/javascript">
-                    var m1g1wuul0tojv0t;
-                    (function(d, t) {
-                        var s = d.createElement(t),
-                            options = {
-                                'userName': 'aigchinese',
-                                'formHash': 'm1g1wuul0tojv0t',
-                                'autoResize': true,
-                                'height': '779',
-                                'async': true,
-                                'host': 'wufoo.com',
-                                'header': 'show',
-                                'ssl': true
+                <div class="modal-body">
+                    <!--                <iframe height="1090" allowTransparency="true" frameborder="0" style="width:100%;border:none" src="https://aigchinese.wufoo.com/embed/m1g1wuul0tojv0t/"></iframe>-->
+
+                    <div id="wufoo-m1g1wuul0tojv0t">
+                        Fill out my <a href="https://aigchinese.wufoo.com/forms/m1g1wuul0tojv0t">online form</a>.
+                    </div>
+
+                    <script type="text/javascript">
+                        var m1g1wuul0tojv0t;
+                        (function(d, t) {
+                            var s = d.createElement(t),
+                                options = {
+                                    'userName': 'aigchinese',
+                                    'formHash': 'm1g1wuul0tojv0t',
+                                    'autoResize': true,
+                                    'height': '779',
+                                    'async': true,
+                                    'host': 'wufoo.com',
+                                    'header': 'show',
+                                    'ssl': true
+                                };
+                            s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                            s.onload = s.onreadystatechange = function() {
+                                var rs = this.readyState;
+                                if (rs)
+                                    if (rs != 'complete')
+                                        if (rs != 'loaded') return;
+                                try {
+                                    m1g1wuul0tojv0t = new WufooForm();
+                                    m1g1wuul0tojv0t.initialize(options);
+                                    m1g1wuul0tojv0t.display();
+                                } catch (e) {}
                             };
-                        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-                        s.onload = s.onreadystatechange = function() {
-                            var rs = this.readyState;
-                            if (rs)
-                                if (rs != 'complete')
-                                    if (rs != 'loaded') return;
-                            try {
-                                m1g1wuul0tojv0t = new WufooForm();
-                                m1g1wuul0tojv0t.initialize(options);
-                                m1g1wuul0tojv0t.display();
-                            } catch (e) {}
-                        };
-                        var scr = d.getElementsByTagName(t)[0],
-                            par = scr.parentNode;
-                        par.insertBefore(s, scr);
-                    })(document, 'script');
-                </script>
+                            var scr = d.getElementsByTagName(t)[0],
+                                par = scr.parentNode;
+                            par.insertBefore(s, scr);
+                        })(document, 'script');
+                    </script>
 
-
+                </div>
 
             </div>
         </div>
