@@ -167,7 +167,7 @@ html {
 .wufoo input.text,
 .wufoo textarea.textarea {
     background-color: white;
-
+    color: black;
 }
 
 .wufoo label.choice {
