@@ -849,7 +849,8 @@ a.btn-orange {
 .btn-orange-t,
 a.btn-orange-t {
     border: 1.5px solid #e46f1f;
-    color: #e46f1f;
+    background: #e46f1f;
+    color: white;
 }
 
 .btn-w-t,
