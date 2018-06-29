@@ -617,6 +617,9 @@ img {
     background-repeat: no-repeat
 }
 
+#topcontrol{
+    font-size: 40px;
+}
 .no-select {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
