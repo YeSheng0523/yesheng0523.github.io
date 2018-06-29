@@ -144,6 +144,7 @@ html {
     color: #333
 }
 
+
 .wufoo input.text,
 .wufoo textarea.textarea,
 .wufoo select.select,
@@ -156,11 +157,17 @@ html {
     width: 100%;
     color: white;
     font-weight: normal;
-    background-color: white;
+    background-color: transparent;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+}
+
+.wufoo input.text,
+.wufoo textarea.textarea {
+    background-color: white;
+
 }
 
 .wufoo label.choice {
